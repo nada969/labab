@@ -1,0 +1,461 @@
+* {
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+hr {
+  width: 9vh;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 10px);
+          transform: translate(-50%, 10px);
+  background-color: orange;
+  height: 2px;
+}
+
+header {
+  background: url(../images/banner-1-Construction.png);
+  width: 100%;
+  color: white;
+  padding-bottom: 10vh;
+  background-size: 100% 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 3vh;
+}
+
+header .card {
+  height: 90vh;
+  top: 21vh;
+  position: relative;
+  background: transparent;
+  border: none;
+}
+
+header .card-img-top {
+  position: relative;
+  width: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+header .span-previous {
+  position: relative;
+  right: 35%;
+  background-color: black;
+  padding: 21px;
+  border-radius: 0px 43px 43px 0px;
+}
+
+header .span-next {
+  background-color: black;
+  position: relative;
+  left: 35%;
+  padding: 21px;
+  border-radius: 43px 0px 0px 43px;
+}
+
+header .icons.text-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  width: 37vh;
+  position: relative;
+  left: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header #flip {
+  width: 46px;
+  text-align: center;
+  background-color: orange;
+  border: none;
+  border-radius: 0px 0px 30px 30px;
+}
+
+header i.fas.fa-chevron-down.top {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  border-radius: 0;
+  -webkit-animation: en 1s infinite ease-in-out;
+          animation: en 1s infinite ease-in-out;
+}
+
+@-webkit-keyframes en {
+  0% {
+    -webkit-transform: translate(0px, 8px);
+            transform: translate(0px, 8px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -12px);
+            transform: translate(0px, -12px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 8px);
+            transform: translate(0px, 8px);
+  }
+}
+
+@keyframes en {
+  0% {
+    -webkit-transform: translate(0px, 8px);
+            transform: translate(0px, 8px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -12px);
+            transform: translate(0px, -12px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 8px);
+            transform: translate(0px, 8px);
+  }
+}
+
+header #flip:hover {
+  cursor: pointer;
+}
+
+header #panel {
+  height: 29vh;
+  padding: 40px;
+  display: none;
+  position: absolute;
+  opacity: .5;
+  top: 88px;
+}
+
+header .icon-content {
+  -webkit-transform: translate(0px, -44px);
+          transform: translate(0px, -44px);
+  padding-left: 14px;
+  padding-right: 13px;
+}
+
+header i {
+  background-color: #503e27;
+  border: 2px solid orange;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+header .down {
+  background-color: #503e27;
+  border: 2px solid orange;
+  padding: 8px;
+  border-radius: 50%;
+  width: 7vh;
+  height: 7vh;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0px);
+          transform: translate(-50%, 0px);
+}
+
+header i:hover {
+  cursor: pointer;
+  background-color: orange;
+  border: 2px solid #503e27;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+header .icon-content-down {
+  position: relative;
+  padding-left: 14px;
+  padding-right: 13px;
+  top: 34px;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: white;
+}
+
+header i.bottom {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  border-radius: 0;
+  -webkit-animation: en 1s infinite ease-in-out;
+          animation: en 1s infinite ease-in-out;
+}
+
+@keyframes en {
+  0% {
+    -webkit-transform: translate(0px, 6px);
+            transform: translate(0px, 6px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -6px);
+            transform: translate(0px, -6px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 6px);
+            transform: translate(0px, 6px);
+  }
+}
+
+.company h3 {
+  padding-top: 32px;
+}
+
+.company hr.hr1 {
+  width: 100%;
+  background-color: #f1f1f1c9;
+}
+
+.projects {
+  background-color: #f1f1f1c9;
+  padding-top: 7vh;
+}
+
+.projects .card-group {
+  padding-bottom: 15vh;
+  margin-top: 11vh;
+}
+
+.projects .card-group .card1 {
+  background: url(../images/Layer-265.png);
+  color: white;
+  border: none;
+  height: 63vh;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 14vh;
+}
+
+.projects .card-group .card2 {
+  background: url(../images/Layer-263-copy.png);
+  color: white;
+  border: none;
+  height: 63vh;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 14vh;
+}
+
+.projects .card-group .card3 {
+  background: url(../images/Layer-258.png);
+  color: white;
+  border: none;
+  height: 63vh;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 14vh;
+}
+
+.projects .card-group .card4 {
+  background: url(../images/Layer-266.png);
+  color: white;
+  border: none;
+  height: 63vh;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 14vh;
+}
+
+.projects .card-group .card-body {
+  overflow: hidden;
+  position: relative;
+  top: 72%;
+  width: 100%;
+  background: black;
+  opacity: .7;
+}
+
+.projects .card-group .card:hover {
+  cursor: pointer;
+  -webkit-transform: scaleY(1.2) translateY(32px);
+          transform: scaleY(1.2) translateY(32px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.projects .card-group .card:hover .card-body1 {
+  display: block;
+}
+
+.projects .card-group .card:hover .card-body {
+  display: block;
+  position: relative;
+  top: 0%;
+}
+
+.projects .card-group .card-body1 {
+  display: none;
+  opacity: .8;
+  background-color: orange;
+  width: 100%;
+  height: 63vh;
+}
+
+.projects .card-group .card-body1 .fab {
+  background-color: black;
+  font-family: "Font Awesome 5 Brands";
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+}
+
+.projects .card-group .card-body1 i:hover {
+  background-color: #5c5b5b;
+}
+
+.aims {
+  background: url(../images/Rectangle-7-copy.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  color: white;
+}
+
+.aims .col-sm-6, .aims .col-xs-6 {
+  width: 50%;
+}
+
+.aims i {
+  border: 2px solid gray;
+  font-size: 34px;
+  border-radius: 50%;
+  padding: 16px;
+}
+
+.aims .counter {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  font-size: 38px;
+  font-weight: 700;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.aims i:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.aims .carousel2 {
+  display: none;
+}
+
+.works {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #f1f1f1c9;
+}
+
+.works .card-body {
+  text-align: end;
+}
+
+.works .btn-primary:hover {
+  color: #fff;
+  background-color: black;
+  border: none;
+}
+
+.images {
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+
+.images img {
+  height: 44vh;
+}
+
+footer {
+  padding-top: 10vh;
+  background-color: #2B2D3B;
+  color: #f1f1f1c9;
+  margin-bottom: 0;
+}
+
+footer .row {
+  text-align: end;
+  margin-top: 5vh;
+}
+
+footer .row .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: end;
+}
+
+footer .row .card-body a {
+  color: #f1f1f1c9;
+}
+
+footer hr {
+  width: 6vh;
+  background-color: orange;
+  height: 2px;
+  padding: 0;
+}
+
+footer .low {
+  background-color: #15151D;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+
+footer .low p {
+  margin-bottom: 0;
+}
+
+footer .low p.right {
+  float: right;
+}
+
+footer .low p.center {
+  float: right;
+  color: white;
+  position: relative;
+  right: 76vh;
+}
+
+footer .low img {
+  width: 13%;
+}
+
+footer p.links {
+  width: 29vh;
+  margin-left: 75px;
+}
+
+footer .location {
+  text-align: end;
+}
+
+footer .location .words {
+  margin-right: 3px;
+  background-color: #21232F;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

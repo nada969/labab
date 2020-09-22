@@ -1,0 +1,92 @@
+@media (min-width: 1367px) and (max-width: 1440px) {
+    header .span-next {position: relative; left: 35%;}
+    header .span-previous {position: relative; right: 35%;}
+}
+@media (min-width: 1201px) and (max-width: 1366px) {
+    header .span-next {position: relative; left: 33%;}
+    header .span-previous {position: relative; right: 33%;}
+}
+@media (min-width: 1025px) and (max-width: 1200px) {} 
+@media (min-width: 993px) and (max-width: 1024px) { footer p.links {
+    width:18vh;
+    margin-left: -13px;
+}
+    header .span-next {position: relative; left: 29%;}
+    header .span-previous {position: relative; right: 29%;}
+}
+@media (min-width: 769px) and (max-width: 992px) { footer p.links {
+    width:18vh;
+    margin-left: -13px;
+}
+    header .span-next {position: relative; left: 28%;}
+    header .span-previous {position: relative; right: 28%;}
+}
+@media (min-width: 577px) and (max-width: 768px) {footer hr {
+    width: 6vh;
+    position: relative;
+    left: 62vh;} 
+    header .span-next {position: relative; left: 16%;}
+    header .span-previous {position: relative; right: 16%;}
+     i {font-size: 20px;}
+    .counter { font-size: 20px;
+        font-weight: 300;}
+    footer p.links {
+        width:18vh;
+        margin-left: -13px;
+    }
+}
+@media (min-width: 426px) and (max-width: 576px) {footer hr {
+    width: 6vh;
+    position: relative;
+    left: 62vh;} 
+    *{font-size: 12px;}
+ i {    font-size:ounter}
+ .counter { font-size: 20px;
+        font-weight: 300;}
+        header .span-next {position: relative; left: 20%;}
+        header .span-previous {position: relative; right: 20%;}
+        .aims .carousel2{display:block;}
+        .aims .row{display: none;}
+    }
+ 
+@media (min-width: 376px) and (max-width: 425px) {footer hr {
+    width: 6vh;
+    position: relative;
+    left: 62vh;} 
+    *{font-size: 12px;}
+    header .span-next , header .span-previous {display: none;}
+     i {font-size: 20px;}
+    .counter { font-size: 20px;
+        font-weight: 300;}
+        .aims .carousel2{display:block;}
+        .aims .row{display: none;}
+}
+@media (min-width: 321px) and (max-width: 375px) {
+    .card-img-top {
+        width: 50%;}
+    footer hr {
+    width: 6vh;
+    position: relative;
+    left: 62vh;} 
+    *{font-size: 12px;}
+    header .span-next ,header .span-previous {display: none;}
+     i {font-size: 20px;}
+    .counter { font-size: 20px;
+        font-weight: 300;}
+        .aims .carousel2{display:block;}
+        .aims .row{display: none;}
+}
+@media (max-width: 320px) {
+    .card-img-top {
+        width: 50%;}
+    footer hr {width: 6vh;
+    position: relative;
+    left: 62vh;} 
+    *{font-size: 12px;}
+    header .span-next, header .span-previous{display: none;}
+     i {font-size: 20px;}
+    .counter { font-size: 20px;
+        font-weight: 300;}
+        .aims .carousel2{display:block;}
+        .aims .row{display: none;}
+}
